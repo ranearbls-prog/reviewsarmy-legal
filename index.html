@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reviews Army · Documentos Legales</title>
+<style>
+  :root {
+    --bg: #0b1220; --panel: #1e293b; --text: #e2e8f0; --muted: #94a3b8;
+    --accent: #10b981; --border: #334155;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 0; background: var(--bg); color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.6;
+    min-height: 100vh;
+    display: grid; place-items: center;
+  }
+  .container {
+    max-width: 600px; padding: 40px 24px; text-align: center;
+  }
+  h1 {
+    font-size: 32px; margin: 0 0 8px; letter-spacing: 1px;
+  }
+  .subtitle {
+    color: var(--muted); font-size: 14px; margin-bottom: 40px;
+  }
+  .links {
+    display: flex; flex-direction: column; gap: 12px;
+  }
+  a {
+    display: block; padding: 16px 24px;
+    background: var(--panel); color: var(--text);
+    border: 1px solid var(--border); border-radius: 8px;
+    text-decoration: none; font-weight: 600;
+    transition: all 0.15s;
+  }
+  a:hover {
+    border-color: var(--accent); color: var(--accent);
+    background: rgba(16,185,129,0.05);
+  }
+  footer {
+    margin-top: 48px; color: var(--muted); font-size: 12px;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>Reviews Army</h1>
+  <p class="subtitle">Documentos legales del Bot de Discord</p>
+  <div class="links">
+    <a href="terms.html">📜 Términos de Servicio</a>
+    <a href="privacy.html">🔒 Política de Privacidad</a>
+  </div>
+  <footer>© 2026 Reviews Army · Bot de Discord</footer>
+</div>
+</body>
+</html>
